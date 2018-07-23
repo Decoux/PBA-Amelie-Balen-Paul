@@ -96,9 +96,58 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+@font-face {
+  font-family: "loveloblack";
+  src: url("../font-family/lovelo.ttf");
+}
+.paragraphe{
+  font-family:"loveloblack";
+}
 
+.lock {
+    width: 37px;
+    height: 37px;
+    border-top: solid 16px;
+    border-top-color: currentcolor;
+    border-right: solid 16px;
+    border-right-color: currentcolor;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
 
+.colorpink {
+  color: #d3336c;
+}
 
+.colorpurple {
+  color:#935297;
+}
+.colorvert{
+  color:#79a506;
+}
+.footer{
+  background:#1D1D1E;
+}
+.colorwhite{
+  color: white;
+}
+footer a:hover {
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    color: #D8383F;
+}
+footer a:fovus{
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    color: #D8383F;
+}
+.colorwhite a{
+  color: white;
+}
+.border {
+  border:1px solid white;
+}
 
 
 
