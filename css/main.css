@@ -99,11 +99,11 @@ textarea {
 @font-face {
   font-family: "loveloblack";
   src: url("../font-family/lovelo.ttf");
-}
+}.entete
+
 .paragraphe{
   font-family:"loveloblack";
 }
-
 .lock {
     width: 37px;
     height: 37px;
@@ -128,6 +128,7 @@ textarea {
 }
 .footer{
   background:#1D1D1E;
+  margin-top: 100px;
 }
 .colorwhite{
   color: white;
@@ -145,20 +146,107 @@ footer a:fovus{
 .colorwhite a{
   color: white;
 }
-.border {
-  border:1px solid white;
+.icon{
+  margin-top:100px;
+}
+.container {
+    width: 1280px;
+    margin: 0 auto;
+    margin-bottom: 0px;
+    padding: 0;
+}
+.pagination--light {
+    text-align: center;
+    height: 35px;
+    margin-bottom: 45px !important;
+    color: #1D1D1E;
+    background-color: #FFF;
+}
+.pagination--light {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+}
+.index{
+  display: inline-flex;
+}
+ol, ul {
+    list-style: none;
+}
+.pagination--light .pagination-next {
+    float: right;
+    text-align: right;
+    margin-right: 20px;
+}
+.pagination-next{
+float: right;
+text-align: right;
+margin-right: 20px;
+}
+.pagination--light .pagination-previous, .pagination--light .pagination-next {
+    border: solid 4px #1D1D1E;
+    padding: 5px 13px;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    font-size: "bikobold";
+    font-size: 18px;
+    font-size: 1.8rem;
+    height: 67px;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+a {
+    box-sizing: border-box;
+}
+.pagination--light {
+    text-align: center;
+    color: #1D1D1E;
+}
+.pagination--light .index .index-item:first-child {
+    border-left: none;
+}
+.pagination--light .index .index-item.active {
+    color: #D8383F;
+}
+.pagination--light .index .index-item {
+    display: inline-block;
+    width: 45px;
+    text-align: center;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    border-left: solid 2px #1D1D1E;
+    font-size: 18px;
+    font-size: 1.8rem;
+    font-family: "bikobold";
 }
 
 
+   /*==============MOBILE FIRST===============*/
+ @media (min-width:320px) {
+     .ml-4{
+       display: ruby-text;
+     }
+     .contact{
+       margin: 0;
+     }
+     .colorwhite{
+
+     }
+     .image{
+       width: 100%;
+     }
+     .icon{
+       margin: 0;
+     }
+     .suivez-nous{
+       margin-left: 40px;
+     }
 
 
 
-
-
-
-
-
-
+ }
 
 
 
