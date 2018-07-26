@@ -110,6 +110,10 @@ textarea {
      margin: 0;
    }
 
+   .row-nowrap{
+     flex-wrap: inherit;
+   }
+
    article{
      flex: 1;
    }
@@ -150,19 +154,31 @@ textarea {
      border:0;
      border-radius: 0;
    }
+   .card-img{
+     border-radius: 0;
+   }
 
    h1:hover{
      color: #D8383F!important;
      transition: 0.5s;
    }
 
-   .center{
+   .center-1{
      width: 200px;
-     margin: 10% auto;
+     margin: 50% auto;
      height: 130px;
      background-color: white;
      color: Black;
      font-size: 11px;
+   }
+
+   .align-left{
+       width: 200px;
+       margin: 100px 0;
+       height: 130px;
+       background-color: white;
+       color: Black;
+       font-size: 11px;
    }
 
    .gray{
@@ -173,15 +189,47 @@ textarea {
      margin-right: 5%;
    }
 
-   .offset-top{
-     margin-top: 20px;
-   }
-
    .bg-white{
      background-color: white;
    }
 
-   
+   .desktop{
+     justify-content: center;
+   }
+
+   .mobile{
+     justify-content: center;
+   }
+
+   .margin-top-responsive{
+     margin-top: 15px;
+   }
+
+   span{
+     font-size: 16px;
+   }
+   @media (max-width:1200px) {
+     .desktop{
+       display: none;
+     }
+
+
+
+   }
+   @media (min-width:1200px) {
+     .mobile{
+       display: none;
+     }
+
+     .margin-top-responsive{
+       margin-top: 0;
+     }
+
+
+
+   }
+
+
 
 
 
