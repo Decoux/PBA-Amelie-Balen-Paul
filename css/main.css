@@ -96,20 +96,121 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+<<<<<<< HEAD
+=======
+@font-face {
+  font-family: "loveloblack";
+  src: url("../font-family/lovelo.ttf");
+}
+/*navbar*/
+>>>>>>> 0f0c28484f04f8b4ed3df32fb8ba11cc5d68500a
 
+/* NAVBAR */
 
+nav.navbar.navbar-expand-lg {
+    background-color: #232223;
+    height: 90px;
+}
+nav.navbar.navbar-expand-lg:hover {
+    color: red;
+}
+}
+a.nav-link {
+    font-family: "lovelo";
+    font-size: 18px;
+    color: #FFF;
+    max-width: 200px;
+    transition: all 0.3s ease 0s;
+}
 
+a.nav-link:hover {
+    background-color: inherit;
+    color: #da4047;
+}
 
+/* INPUT */
+input.form-control.mr-sm-2 {
+    background-color: #1D1D1E;
+    color: #FFF;
+    width: 160px;
+    height: 35px;
+    border: 4px solid #FFF;
+    position: relative;
+    padding-right: 30px;
+    padding-left: 5px;
+    transition: all 0.3s ease 0s;
+}
 
+input[type="search"]:hover,
+input[type="search"]:focus {
+  background-color: inherit;
+  border: 5px solid #da4047;
+}
 
+div.container-fluid.index {
+    min-height: calc(100vh - 90px);
+    background-image: url(../img/Palais-des-Beaux-Arts-de-Lille.jpg);
+    background-size: cover;
+    background-position: center;
+}
 
+div.row.landing {
+    margin-left: 65px;
+    margin-right: 65px;
+    max-height: 493px;
+    text-align: center;
+}
 
+div.deco-haut-gauche {
+    position: absolute;
+    height: 340px;
+    width: 80%;
+    top: 70px;
+    border-top: 16px solid #FFF;
+    border-right: 16px solid #FFF;
+    height: 40px;
+}
 
+div.deco-bas-gauche {
+    position: absolute;
+    height: 340px;
+    width: 80%;
+    top: 350px;
+    border-bottom: 16px solid #FFF;
+    border-right: 16px solid #FFF;
+    height: 40px;
+}
 
+div.text-gauche, div.text-droit {
+    position: absolute;
+    top: 200px;
+    text-align: center;
+    font-family: 'lovelo';
+}
 
+div.deco-haut-droite {
+    position: absolute;
+    height: 340px;
+    width: 80%;
+    top: 70px;
+    border-top: 16px solid #FFF;
+    border-left: 16px solid #FFF;
+    height: 40px;
+}
 
+div.deco-bas-droite {
+    position: absolute;
+    height: 340px;
+    width: 80%;
+    top: 350px;
+    border-bottom: 16px solid #FFF;
+    border-left: 16px solid #FFF;
+    height: 40px;
+}
 
+div.text-droit {
 
+}
 
 
 
