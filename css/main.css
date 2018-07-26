@@ -99,7 +99,106 @@ textarea {
 @font-face {
   font-family: "loveloblack";
   src: url("../font-family/lovelo.ttf");
-}.entete
+}
+.pointer {
+  cursor: pointer;
+}
+
+.borderbottom {
+  border-bottom: 1px solid white;
+  width: 80%;
+  margin-left: 10%;
+}
+
+input[value="PBA"],
+a[class="nav-link d-lg-none pb-4"],
+a[class="nav-link d-lg-none pt-4 pb-4"] {
+  margin-left: 10%;
+}
+
+input[value="PBA"] {
+  width: 80%;
+  max-width: 250px;
+  border: 5px solid white;
+  background-color: inherit;
+}
+
+.navbar-brand{
+  font-size: 17px;
+}
+
+.bgnoir {
+  background: #1d1d1e;
+}
+
+.bggris {
+  background: #e9e9e9;
+}
+
+.bgwhite2 {
+  background: white;
+}
+
+.tcrose {
+  color: #da4047;
+}
+
+.tch {
+  color: white;
+}
+
+.tch5 {
+  color: grey;
+}
+
+.tch2:hover,
+.tch:hover {
+  transition: color 0.3s;
+  color: #da4047;
+}
+
+.tchborder:hover {
+  transition: border 0.3s;
+  border-color: #da4047;
+}
+
+.searchfor {
+  margin-left: -30px;
+  z-index: 1000;
+  position: relative;
+}
+
+
+.bgh:hover {
+  background-color: #da4047;
+}
+
+
+input[type="search"] {
+  background: inherit;
+  border: 5px solid white;
+  border-radius: 0px;
+  height: 40px;
+}
+
+input[type="search"]:hover,
+input[type="search"]:focus {
+  background-color: inherit;
+  border: 5px solid #da4047;
+}
+
+#exampleSelect1 {
+ -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: #1d1d1e;
+  border: none;
+  color:white;
+}
+
+#exampleSelect1:hover {
+  color: #da4047;
+}
 
 .paragraphe{
   font-family:"loveloblack";
