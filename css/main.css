@@ -248,68 +248,41 @@ textarea {
 }
 /*navbar*/
 
-.pointer {
-  cursor: pointer;
+
+/* NAVBAR */
+
+nav.navbar.navbar-expand-lg {
+    background-color: #232223;
+    height: 90px;
+}
+nav.navbar.navbar-expand-lg:hover {
+    color: red;
+}
+}
+a.nav-link {
+    font-family: "lovelo";
+    font-size: 18px;
+    color: #FFF;
+    max-width: 200px;
+    transition: all 0.3s ease 0s;
 }
 
-.borderbottom {
-  border-bottom: 1px solid white;
-  width: 80%;
-  margin-left: 10%;
+a.nav-link:hover {
+    background-color: inherit;
+    color: #da4047;
 }
 
-input[value="PBA"],
-a[class="nav-link d-lg-none pb-4"],
-a[class="nav-link d-lg-none pt-4 pb-4"] {
-  margin-left: 10%;
-}
-
-input[value="PBA"] {
-  width: 80%;
-  max-width: 250px;
-  border: 5px solid white;
-  background-color: inherit;
-}
-
-.navbar-brand{
-  font-size: 17px;
-}
-
-.bgnoir {
-  background: #1d1d1e;
-}
-
-.tch {
-  color: white;
-}
-
-.tch:hover {
-  transition: color 0.3s;
-  color: #da4047;
-}
-
-.tchborder:hover {
-  transition: border 0.3s;
-  border-color: #da4047;
-}
-
-.searchfor {
-  margin-left: -30px;
-  z-index: 1000;
-  position: relative;
-}
-
-
-.bgh:hover {
-  background-color: #da4047;
-}
-
-
-input[type="search"] {
-  background: inherit;
-  border: 5px solid white;
-  border-radius: 0px;
-  height: 40px;
+/* INPUT */
+input.form-control.mr-sm-2 {
+    background-color: #1D1D1E;
+    color: #FFF;
+    width: 160px;
+    height: 35px;
+    border: 4px solid #FFF;
+    position: relative;
+    padding-right: 30px;
+    padding-left: 5px;
+    transition: all 0.3s ease 0s;
 }
 
 input[type="search"]:hover,
@@ -318,169 +291,70 @@ input[type="search"]:focus {
   border: 5px solid #da4047;
 }
 
-#exampleSelect1 {
- -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  background-color: #1d1d1e;
-  border: none;
-  color:white;
+div.container-fluid.index {
+    min-height: calc(100vh - 90px);
+    background-image: url(../img/Palais-des-Beaux-Arts-de-Lille.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
-#exampleSelect1:hover {
-  color: #da4047;
+div.row.landing {
+    margin-left: 65px;
+    margin-right: 65px;
+    max-height: 493px;
+    text-align: center;
 }
 
-/* section*/
-
-.paragraphe{
-  font-family:"loveloblack";
-}
-.lock {
-    width: 37px;
-    height: 37px;
-    border-top: solid 16px;
-    border-top-color: currentcolor;
-    border-right: solid 16px;
-    border-right-color: currentcolor;
+div.deco-haut-gauche {
     position: absolute;
-    top: 0;
-    right: 0;
+    height: 340px;
+    width: 80%;
+    top: 70px;
+    border-top: 16px solid #FFF;
+    border-right: 16px solid #FFF;
+    height: 40px;
 }
 
-.colorpink {
-  color: #d3336c;
+div.deco-bas-gauche {
+    position: absolute;
+    height: 340px;
+    width: 80%;
+    top: 350px;
+    border-bottom: 16px solid #FFF;
+    border-right: 16px solid #FFF;
+    height: 40px;
 }
 
-.colorpurple {
-  color:#935297;
-}
-.colorvert{
-  color:#79a506;
-}
-/*footer*/
-
-.footer{
-  background:#1D1D1E;
-  margin-top: 100px;
-}
-.colorwhite{
-  color: white;
-}
-footer a:hover {
-    -webkit-transition: all 0.3s ease 0s;
-    transition: all 0.3s ease 0s;
-    color: #D8383F;
-}
-footer a:fovus{
-    -webkit-transition: all 0.3s ease 0s;
-    transition: all 0.3s ease 0s;
-    color: #D8383F;
-}
-.colorwhite a{
-  color: white;
-}
-.icon{
-  margin-top:100px;
-}
-.container {
-    width: 1280px;
-    margin: 0 auto;
-    margin-bottom: 0px;
-    padding: 0;
-}
-.pagination--light {
+div.text-gauche, div.text-droit {
+    position: absolute;
+    top: 200px;
     text-align: center;
-    height: 35px;
-    margin-bottom: 45px !important;
-    color: #1D1D1E;
-    background-color: #FFF;
-}
-.pagination--light {
-    display: inline-block;
-    text-align: center;
-    vertical-align: middle;
-}
-.index{
-  display: inline-flex;
-}
-ol, ul {
-    list-style: none;
-}
-.pagination--light .pagination-next {
-    float: right;
-    text-align: right;
-    margin-right: 20px;
-}
-.pagination-next{
-float: right;
-text-align: right;
-margin-right: 20px;
-}
-.pagination--light .pagination-previous, .pagination--light .pagination-next {
-    border: solid 4px #1D1D1E;
-    padding: 5px 13px;
-    -webkit-transition: all 0.3s ease 0s;
-    transition: all 0.3s ease 0s;
-    font-size: "bikobold";
-    font-size: 18px;
-    font-size: 1.8rem;
-    height: 67px;
-}
-a {
-    color: inherit;
-    text-decoration: none;
-}
-a {
-    box-sizing: border-box;
-}
-.pagination--light {
-    text-align: center;
-    color: #1D1D1E;
-}
-.pagination--light .index .index-item:first-child {
-    border-left: none;
-}
-.pagination--light .index .index-item.active {
-    color: #D8383F;
-}
-.pagination--light .index .index-item {
-    display: inline-block;
-    width: 45px;
-    text-align: center;
-    -webkit-transition: all 0.3s ease 0s;
-    transition: all 0.3s ease 0s;
-    border-left: solid 2px #1D1D1E;
-    font-size: 18px;
-    font-size: 1.8rem;
-    font-family: "bikobold";
+    font-family: 'lovelo';
 }
 
+div.deco-haut-droite {
+    position: absolute;
+    height: 340px;
+    width: 80%;
+    top: 70px;
+    border-top: 16px solid #FFF;
+    border-left: 16px solid #FFF;
+    height: 40px;
+}
 
-   /*==============MOBILE FIRST===============*/
- @media (min-width:320px) {
-     .ml-4{
-       display: ruby-text;
-     }
-     .contact{
-       margin: 0;
-     }
-     .colorwhite{
+div.deco-bas-droite {
+    position: absolute;
+    height: 340px;
+    width: 80%;
+    top: 350px;
+    border-bottom: 16px solid #FFF;
+    border-left: 16px solid #FFF;
+    height: 40px;
+}
 
-     }
-     .image{
-       width: 100%;
-     }
-     .icon{
-       margin: 0;
-     }
-     .suivez-nous{
-       margin-left: 40px;
-     }
+div.text-droit {
 
-
-
- }
+}
 
 
 
