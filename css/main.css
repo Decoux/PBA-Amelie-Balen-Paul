@@ -190,6 +190,10 @@ textarea {
      margin-right: 5%;
    }
 
+   .fa-caret-down {
+     margin-right: 0px;
+   }
+
    .bg-white{
      background-color: white;
    }
@@ -246,97 +250,61 @@ textarea {
   font-family: "loveloblack";
   src: url("../font-family/lovelo.ttf");
 }
-/*footer*/
-@font-face {
-  font-family: "loveloblack";
-  src: url("../font-family/lovelo.ttf");
-}
-/*navbar*/
 
-.pointer {
-  cursor: pointer;
-}
 
-.borderbottom {
-  border-bottom: 1px solid white;
-  width: 80%;
-  margin-left: 10%;
-}
+/* NAVBAR */
 
-input[value="PBA"],
-a[class="nav-link d-lg-none pb-4"],
-a[class="nav-link d-lg-none pt-4 pb-4"] {
-  margin-left: 10%;
+nav.navbar.navbar-expand-lg {
+    background-color: #232223;
+    height: 90px;
+}
+nav.navbar.navbar-expand-lg:hover {
+    color: red;
+}
+}
+a.nav-link {
+    font-family: "lovelo";
+    font-size: 18px;
+    color: #FFF;
+    max-width: 200px;
+    transition: all 0.3s ease 0s;
 }
 
-input[value="PBA"] {
-  width: 80%;
-  max-width: 250px;
-  border: 5px solid white;
-  background-color: inherit;
-}
-
-.navbar-brand{
-  font-size: 17px;
-}
-
-.bgnoir {
-  background: #1d1d1e;
-}
-
-.tch {
+a.navbar-brand,
+a.nav-link {
   color: white;
 }
 
-.tch:hover {
-  transition: color 0.3s;
-  color: #da4047;
+a.navbar-brand:hover,
+a.nav-link:hover {
+    background-color: inherit;
+    color: #da4047;
 }
 
-.tchborder:hover {
-  transition: border 0.3s;
-  border-color: #da4047;
-}
-
-.searchfor {
-  margin-left: -30px;
-  z-index: 1000;
-  position: relative;
-}
-
-
-.bgh:hover {
-  background-color: #da4047;
-}
-
-
-input[type="search"] {
-  background: inherit;
-  border: 5px solid white;
-  border-radius: 0px;
-  height: 40px;
+/* INPUT */
+input.form-control.mr-sm-2 {
+    background-color: #1D1D1E;
+    color: #FFF;
+    width: 160px;
+    height: 35px;
+    border: 4px solid #FFF;
+    position: relative;
+    padding-right: 30px;
+    padding-left: 5px;
+    transition: all 0.3s ease 0s;
+    border-radius: 0px;
 }
 
 input[type="search"]:hover,
 input[type="search"]:focus {
   background-color: inherit;
-  border: 5px solid #da4047;
-}
-
-#exampleSelect1 {
- -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  background-color: #1d1d1e;
-  border: none;
-  color:white;
-}
-
-#exampleSelect1:hover {
-  color: #da4047;
+  border-color: #da4047;
 }
 
 /* section*/
+.section{
+  margin: 200px 0 0 0 ;
+}
 
 .paragraphe{
   font-family:"loveloblack";
@@ -408,9 +376,7 @@ footer a:fovus{
 .index{
   display: inline-flex;
 }
-ol, ul {
-    list-style: none;
-}
+
 .pagination--light .pagination-next {
     float: right;
     text-align: right;
@@ -460,9 +426,18 @@ a {
     font-family: "bikobold";
 }
 
+.formgroupmt {
+  margin-top: 100px;
+}
+
 
    /*==============MOBILE FIRST===============*/
  @media (min-width:320px) {
+
+     .formgroupmt {
+       margin-top: 0px;
+     }
+
      .ml-4{
        display: ruby-text;
      }
@@ -489,114 +464,6 @@ a {
 
 
 /* NAVBAR */
-
-nav.navbar.navbar-expand-lg {
-    background-color: #232223;
-    height: 90px;
-}
-nav.navbar.navbar-expand-lg:hover {
-    color: red;
-}
-}
-a.nav-link {
-    font-family: "lovelo";
-    font-size: 18px;
-    color: #FFF;
-    max-width: 200px;
-    transition: all 0.3s ease 0s;
-}
-
-a.nav-link:hover {
-    background-color: inherit;
-    color: #da4047;
-}
-
-/* INPUT */
-input.form-control.mr-sm-2 {
-    background-color: #1D1D1E;
-    color: #FFF;
-    width: 160px;
-    height: 35px;
-    border: 4px solid #FFF;
-    position: relative;
-    padding-right: 30px;
-    padding-left: 5px;
-    transition: all 0.3s ease 0s;
-}
-
-input[type="search"]:hover,
-input[type="search"]:focus {
-  background-color: inherit;
-  border: 5px solid #da4047;
-}
-
-div.container-fluid.index {
-    min-height: calc(100vh - 90px);
-    background-image: url(../img/Palais-des-Beaux-Arts-de-Lille.jpg);
-    background-size: cover;
-    background-position: center;
-}
-
-div.row.landing {
-    margin-left: 65px;
-    margin-right: 65px;
-    max-height: 493px;
-    text-align: center;
-}
-
-div.deco-haut-gauche {
-    position: absolute;
-    height: 340px;
-    width: 80%;
-    top: 70px;
-    border-top: 16px solid #FFF;
-    border-right: 16px solid #FFF;
-    height: 40px;
-}
-
-div.deco-bas-gauche {
-    position: absolute;
-    height: 340px;
-    width: 80%;
-    top: 350px;
-    border-bottom: 16px solid #FFF;
-    border-right: 16px solid #FFF;
-    height: 40px;
-}
-
-div.text-gauche, div.text-droit {
-    position: absolute;
-    top: 200px;
-    text-align: center;
-    font-family: 'lovelo';
-}
-
-div.deco-haut-droite {
-    position: absolute;
-    height: 340px;
-    width: 80%;
-    top: 70px;
-    border-top: 16px solid #FFF;
-    border-left: 16px solid #FFF;
-    height: 40px;
-}
-
-div.deco-bas-droite {
-    position: absolute;
-    height: 340px;
-    width: 80%;
-    top: 350px;
-    border-bottom: 16px solid #FFF;
-    border-left: 16px solid #FFF;
-    height: 40px;
-}
-
-div.text-droit {
-
-}
-
-
-
 
 /* ==========================================================================
    Helper classes
