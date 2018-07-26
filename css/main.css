@@ -100,7 +100,7 @@ textarea {
   font-family: "loveloblack";
   src: url("../font-family/lovelo.ttf");
 }
-/* navbar*/
+/*navbar*/
 
 .pointer {
   cursor: pointer;
@@ -135,6 +135,11 @@ input[value="PBA"] {
 
 .tch {
   color: white;
+}
+
+.tch:hover {
+  transition: color 0.3s;
+  color: #da4047;
 }
 
 .tchborder:hover {
@@ -179,6 +184,7 @@ input[type="search"]:focus {
 #exampleSelect1:hover {
   color: #da4047;
 }
+
 /* section*/
 
 .paragraphe{
@@ -206,9 +212,7 @@ input[type="search"]:focus {
 .colorvert{
   color:#79a506;
 }
-
-
-/* footer*/
+/*footer*/
 
 .footer{
   background:#1D1D1E;
