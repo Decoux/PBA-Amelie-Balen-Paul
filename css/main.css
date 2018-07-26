@@ -246,6 +246,10 @@ textarea {
   font-family: "loveloblack";
   src: url("../font-family/lovelo.ttf");
 }
+/*footer*/
+.footer{
+  background:#1D1D1E;
+  margin-top: 100px;
 /*navbar*/
 
 
