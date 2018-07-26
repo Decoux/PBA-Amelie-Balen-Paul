@@ -100,6 +100,8 @@ textarea {
   font-family: "loveloblack";
   src: url("../font-family/lovelo.ttf");
 }
+/* navbar*/
+
 .pointer {
   cursor: pointer;
 }
@@ -131,30 +133,8 @@ input[value="PBA"] {
   background: #1d1d1e;
 }
 
-.bggris {
-  background: #e9e9e9;
-}
-
-.bgwhite2 {
-  background: white;
-}
-
-.tcrose {
-  color: #da4047;
-}
-
 .tch {
   color: white;
-}
-
-.tch5 {
-  color: grey;
-}
-
-.tch2:hover,
-.tch:hover {
-  transition: color 0.3s;
-  color: #da4047;
 }
 
 .tchborder:hover {
@@ -199,6 +179,7 @@ input[type="search"]:focus {
 #exampleSelect1:hover {
   color: #da4047;
 }
+/* section*/
 
 .paragraphe{
   font-family:"loveloblack";
@@ -225,6 +206,10 @@ input[type="search"]:focus {
 .colorvert{
   color:#79a506;
 }
+
+
+/* footer*/
+
 .footer{
   background:#1D1D1E;
   margin-top: 100px;
