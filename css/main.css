@@ -605,6 +605,28 @@ div.text-droit {
      .colorwhite{
 
 
+     }
+     .image{
+       width: 100%;
+     }
+     .icon{
+       margin: 0;
+     }
+     .suivez-nous{
+       display: ruby;
+     }
+     .ml-5{
+      display:ruby-text-container;
+
+     }
+     .icon{
+       margin-top: 30px;
+     }
+     .col-md-2{
+       display: ruby-text-container;
+     }
+
+
 p.haut-gauche {
   font-size: 3vw;
 }
