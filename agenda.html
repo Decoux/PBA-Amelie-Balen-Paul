@@ -20,71 +20,62 @@
  <link href="bootstrap-social.css" rel="stylesheet" >
 
 <body>
+  <!-- NAVBAR -->
 
-  <nav class="bgnoir navbar navbar-expand-lg navbar-dark position-fixed w-100" style="z-index:100">
-      <a class="navbar-brand  col-1 col-xs-1 col-sm-1 col-md-3 d-none d-lg-block mt-3" href="index.html"><p class="tch">PALAIS BEAUX-ARTS LILLE</p></a>
-    <div class="allrightmobile">
-        <i class="fas fa-search pointer d-lg-none tch"></i>
-        <i class="far fa-question-circle pointer d-lg-none tch ml-2 mr-2"></i>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-    </div>
-    <div class="collapse navbar-collapse" id="navbarText">
-      <ul class="navbar-nav mr-auto mt-3">
-        <li class="nav-item">
-          <a class="nav-link d-none d-lg-block" href="#"><p class="tch font-weight-bold familyfont">COLLECTIONS</p></a>
-          <a class="nav-link d-lg-none pb-4" href="#"><i class="fas fa-th tch familyfont"> Collections</i></a>
-          <div class="borderbottom d-lg-none"></div>
+  <nav class="navbar navbar-expand-lg">
+    <a class="navbar-brand" href="#">PALAIS BEAUX-ARTS LILLE</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+      aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Collections
+            <span class="sr-only">(current)</span>
+          </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link d-none d-lg-block" href="visiter.html"><p class="font-weight-bold familyfont tch">VISITER</p></a>
-          <a class="nav-link d-lg-none pt-4 pb-4" href="visiter.html"><i class="fas fa-random tch familyfont tch"> Visiter</i></a>
-          <div class="borderbottom d-lg-none"></div>
+          <a class="nav-link" href="#">Visiter</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link d-none d-lg-block" href="agenda.html"><p class="tch font-weight-bold familyfont">AGENDA</p></a>
-          <a class="nav-link d-lg-none pt-4 pb-4" href="agenda.html"><i class="fas fa-calendar-alt tch familyfont"> Agenda</i></a>
-          <div class="borderbottom d-lg-none"></div>
+          <a class="nav-link" href="#">Agenda</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link d-none d-lg-block" href="#"><p class="tch font-weight-bold familyfont">INFOS</p></a>
-          <a class="nav-link d-lg-none pt-4 pb-4" href="#"><i class="fas fa-info-circle tch familyfont"> Infos</i></a>
-          <div class="borderbottom d-lg-none"></div>
+          <a class="nav-link" href="#">Infos</a>
         </li>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="" aria-label="Search">
+        </form>
         <li class="nav-item">
-          <a class="nav-link d-lg-none pt-4 pb-4" href="#"><i class="fas fa-envelope tch familyfont"> Contactez nous</i></a>
-          <div class="borderbottom d-lg-none"></div>
+          <a class="nav-link" href="#">Mon PBA</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+            aria-expanded="false">
+            Français
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Something else here</a>
+          </div>
         </li>
       </ul>
-      <input type="button" value="PBA" class="mt-2 tch pointer tchborder d-lg-none"/>
-      <form class="d-none d-lg-block mx-auto form-inline col-lg-3 col-xl-3">
-        <input class="form-control col-lg-10 col-xl-10 pl-1 text-white" type="search" aria-label="Search"/>
-        <span class="searchfor fas fa-search tch"></span>
-      </form>
-      <select class="d-none d-lg-block form-control mx-auto col-9 col-xs-12 col-sm-12 col-md-1 col-lg-1 col-xl-2 pointer" id="exampleSelect1">
-        <option>Français</option>
-        <option>English</option>
-        <option>Dush</option>
-      </select>
-      <img src="img/logo1.svg" style="height:73px;" alt="Logo de lille" class="d-none d-lg-block mx-auto col-2 col-xs-2 col-sm-2 col-md-2 col-lg-2 col-xl-2"/>
+      <img src="img/logo1.svg" alt="logo de lille" style="height:69px;">
     </div>
   </nav>
 
-
-
-
-
-
-
 <!--!!!!!!!!!! 1ere Section !!!!!!!!!!!!!!!!-->
-  <div class="row m-0  ">
-  <div class=" col-md-10 d-flex align-items-center flex-column bd-highligh ">
-    <i class= " icon fas fa-calendar-alt w fa-4x mt-4 "></i>
-    <p class="mt-3 paragraphe">Agenda du musée</p>
-    <i class="logo fas fa-caret-down w fa-2x"></i>
-</div>
-  <div class=" form-group col-md-2">
+  <div class="row m-0 pt-5">
+  <div class="m-auto section col-md-10 d-flex align-items-center flex-column bd-highligh " style="margin-top:100px;">
+    <i class="icon fas fa-calendar-alt fa-4x mt-4 text-center"></i>
+    <p class="mt-3 paragraphe text-center">Agenda du musée</p>
+    <i class="logo fas fa-caret-down fa-2x text-center"></i>
+ </div>
+  <div class=" form-group col-md-2 formgroupmt m-auto">
     <select id="inputState" class="icon form-control">
       <option selected>TOUTES LES ACTUALITÉS</option>
       <option>Exposition</option>
@@ -105,13 +96,13 @@
 
   <div class="row m-0">
 
-    <section class="col-12 col-lg-2 mt-4">
+    <section class="col-12 col-lg-2 mt-4 mx-auto">
       <img class="image" src="img/1.png">
     </section>
     <div class="angle hidden-md">
     </div>
 
-    <section class="col-12 col-lg-8  mt-4" id="important">
+    <section class="col-12 col-lg-9  mt-4 mx-auto" id="important">
       <div class=" border hidden-lg-down">
       </div>
       <div class="lock colorpink "></div>
@@ -127,12 +118,12 @@
 
   <div class="row m-0">
 
-    <section class="col-12 col-lg-2 mt-4">
+    <section class="col-12 col-lg-2 mt-4 mx-auto">
       <img class="image" src="img/2.png">
     </section>
     <div class="angle hidden-md">
     </div>
-    <section class="col-12 col-lg-8  mt-4">
+    <section class="col-12 col-lg-9  mt-4 mx-auto">
       <div class="border hidden-lg-down">
       </div>
       <div class="lock colorpurple"></div>
@@ -146,12 +137,12 @@
 
   <div class="row m-0">
 
-    <section class="col-12 col-lg-2 mt-4">
+    <section class="col-12 col-lg-2 mt-4 mx-auto">
       <img class="image" src="img/3.png">
     </section>
     <div class="angle hidden-md">
     </div>
-    <section class="col-12 col-lg-8 mt-4">
+    <section class="col-12 col-lg-9 mt-4 mx-auto">
       <div class="border hidden-lg-down">
       </div>
       <div class="lock colorpurple"></div>
@@ -165,12 +156,12 @@
 
   <div class="row m-0">
 
-    <section class="col-12 col-lg-2 mt-4">
+    <section class="col-12 col-lg-2 mt-4 mx-auto">
       <img class="image" src="img/4.png">
     </section>
     <div class="angle hidden-md">
     </div>
-    <section class="col-12 col-lg-8 mt-4">
+    <section class="col-12 col-lg-9 mt-4 mx-auto">
       <div class="border hidden-lg-down">
       </div>
       <div class="lock colorpurple"></div>
@@ -184,12 +175,12 @@
 
   <div class="row m-0">
 
-    <section class="col-12 col-lg-2 mt-4">
+    <section class="col-12 col-lg-2 mt-4 mx-auto">
       <img class="image" src="img/5.png">
     </section>
     <div class="angle hidden-md">
     </div>
-    <section class="col-12 col-lg-8  mt-4">
+    <section class="col-12 col-lg-9  mt-4 mx-auto">
       <div class="border hidden-lg-down">
       </div>
       <div class="lock colorpink"></div>
@@ -201,12 +192,12 @@
 
 
   <div class="row m-0">
-    <section class="col-12 col-lg-2 mt-4">
+    <section class="col-12 col-lg-2 mt-4 mx-auto">
       <img class="image" src="img/6.png">
     </section>
     <div class="angle hidden-md">
     </div>
-    <section class="col-12 col-lg-8  mt-4">
+    <section class="col-12 col-lg-9  mt-4 mx-auto">
       <div class="border hidden-lg-down">
       </div>
       <div class="lock colorvert"></div>
@@ -221,12 +212,12 @@
 
   <div class="row m-0">
 
-    <section class="col-12 col-lg-2 mt-4">
+    <section class="col-12 col-lg-2 mt-4 mx-auto">
       <img class="image" src="img/7.png">
     </section>
     <div class="angle hidden-md">
     </div>
-    <section class="col-12 col-lg-8  mt-4">
+    <section class="col-12 col-lg-9  mt-4 mx-auto">
       <div class="border hidden-lg-down">
       </div>
       <div class="lock colorpurple"></div>
@@ -242,12 +233,12 @@
 
   <div class="row m-0">
 
-    <section class="col-12 col-lg-2 mt-4">
+    <section class="col-12 col-lg-2 mt-4 mx-auto">
       <img class="image" src="img/8.png">
     </section>
     <div class="angle hidden-md">
     </div>
-    <section class="col-12 col-lg-8  mt-4">
+    <section class="col-12 col-lg-9  mt-4 mx-auto">
       <div class="border hidden-lg-down">
       </div>
       <div class="lock colorpurple"></div>
@@ -278,8 +269,8 @@
 
   <!--=======start footer=======-->
 
-<footer class="footer">
-    <div class="row mt-5 ml-0 mr-0 mb-0 col-12 ">
+<footer class="footer pt-1">
+    <div class="row mt-5 ml-0 mr-0 mb-0 col-12">
       <div class="col-lg-3 ml-3 colorwhite">
       <div class="pictoFooter ">
         <div class=" d-none d-md-block d-lg-block icon icon-infos"></div>
@@ -295,11 +286,8 @@
         <div class="pictoFooter">
          <div class="icon icon-musee-prive"></div>
        </div>
-       <div class="ml-5">
        <img src="img/22.png">
-       <br>
-      <a href="/Musee-prive" class="paragraphe">Musée privé</a>
-      </div>
+       <div class="paragraphe"><a href="/Musee-prive">Musée privé</a></div>
        <ul class=" d-none d-md-block d-lg-block colorwhite mt-4">
         <li><a href="/Musee-prive/Mecenat" title="Lien interne vers la page Mécène" target="_self">Devenir mécène</a></li>
         <li><a href="/Musee-prive/Entreprises-rejoignez-nous" title="Lien interne vers la page soutenir un projet" target="_self">Soutenir un projet</a></li>
@@ -315,11 +303,11 @@
             <div class="icon icon-presse"></div>
           </div>
           <div class="ml-5">
-          <img src="img/33.png">
-          <br>
-          <a href="/Espace-presse" class="paragraphe"> Presse</a><br>
-        </div>
-         <ul class=" d-none d-md-block d-lg-block mt-4">
+          <img class="mt-5" src="img/33.png"><br>
+          </div>
+          <div class="mt-3"><a href="/Espace-presse" class="paragraphe"> Presse</a></div><br>
+
+         <ul class=" d-none d-md-block d-lg-block">
 
           <li><a href="http://www.pba-lille.fr/Espace-presse/(dossier)" target="_self">Dossiers de Presse</a></li>
 
@@ -336,16 +324,16 @@
                  <img src="img/44.png">
                   <div class="paragraphe">Suivez-Nous</div>
                 </div>
-                  <div class="media">
-                    <a class="btn btn-block btn-social btn-twitter">
+                  <div class="media mt-5">
+                    <a class="btn btn-block btn-social btn-twitter pt-2">
                     <span class="fa fa-twitter"></span></a>
-                    <a class="btn btn-block btn-social btn-facebook">
+                    <a class="btn btn-block btn-social btn-facebook pt-0">
                     <span class="fa fa-facebook"></span></a>
-                    <a class="btn btn-block btn-social btn-instagram">
+                    <a class="btn btn-block btn-social btn-instagram pt-0">
                     <span class="fa fa-instagram"></span></a>
-                    <a class="btn btn-block btn-social btn-youtube">
+                    <a class="btn btn-block btn-social btn-youtube pt-0">
                     <span class="fa fa-youtube"></span></a>
-                    <a class="btn btn-block btn-social btn-snapchat">
+                    <a class="btn btn-block btn-social btn-snapchat pt-0">
                     <span class="fa fa-snapchat"></span></a>
                 </div>
               </div>
@@ -353,26 +341,26 @@
 <hr class="border">
 
 
-  <div class="row m-0 colorwhite ml-5">
-    <div class="contact col-lg-2 mr-5">
+  <div class="row m-0 colorwhite ml-4 ">
+    <div class="contact col-md-2">
       <p><img src="img/55.png">
         <a href="/Nous-contacter"><i class="paragraphe"></i>Nous contacter</a> </p>
       </div>
 
-      <div class="col-lg-2">
+      <div class="col-md-2">
         <p><img src="img/66.png">
           <a href="/Vos-emotions"><i class="paragraphe"></i>Vos émotions</a></p>
         </div>
 
-        <div class="col-lg-2" >
+        <div class="col-md-2 " >
          <p><a href="/Mentions-legales" class="paragraphe">Mentions légales</a></p>
         </div>
 
-        <div class="col-lg-2">
+        <div class="col-md-2 ">
           <p><a href="/Liens" class="paragraphe">Liens</a></p>
         </div>
 
-        <div class="col-lg-2">
+        <div class="col-md-2 ">
           <p><a href="/Plan-de-site" class="paragraphe">Plan de site</a></p>
         </div>
 
