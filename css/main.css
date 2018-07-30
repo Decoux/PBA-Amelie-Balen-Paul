@@ -542,7 +542,9 @@ a {
   .contact {
     margin: 0;
   }
-  .colorwhite {}
+  .colorwhite {
+    margin-left: 0px;
+  }
   .image {
     width: 100%;
   }
@@ -550,7 +552,7 @@ a {
     margin: 0;
   }
   .suivez-nous {
-    margin-left: 40px;
+    margin-left:0px;
   }
 }
 
@@ -819,7 +821,7 @@ a {
     display: ruby-text;
   }
   .contact {
-    margin: 0;
+    margin: auto;
   }
   .colorwhite {}
   .image {
@@ -829,7 +831,13 @@ a {
     margin: 0;
   }
   .suivez-nous {
-    margin-left: 40px;
+    margin-left:0px;
+  }
+  .col-md-2{
+    width: 0;
+  }
+  .mt-3{
+    margin-right: 50px;
   }
 }
 
@@ -1193,7 +1201,7 @@ div.col-12.col-sm-12.col-md-12.appdownload1 {
      .col-md-2{
        display: ruby-text-container;
      }
-
+}
 
 p.haut-gauche {
   font-size: 3vw;
@@ -1296,7 +1304,7 @@ div.col-12.col-sm-3.col-md-3.oeuvre4 {
   background-size: cover;
 }
 
-div.col-12.col-sm-3.col-md-3.oeuvre1 {
+.oeuvre1 {
   background-image: url(../img/Bosch.jpg);
 }
 
