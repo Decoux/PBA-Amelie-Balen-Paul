@@ -111,10 +111,6 @@ textarea {
      margin-top: 90px;
    }
 
-   .row{
-     margin: 0;
-   }
-
    .row-nowrap{
      flex-wrap: inherit;
    }
