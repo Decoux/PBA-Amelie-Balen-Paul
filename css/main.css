@@ -97,7 +97,45 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+
+   /*CSS visiter.html*/
+   .visiter{
+     display: flex;
+     flex-direction: column;
+     background-color: #1d1d1e;
+   }
+   .visiter{
+     flex: 1;
+   }
+
+   .margin-top{
+     margin-top: 90px;
+   }
+
+   .row-nowrap{
+     flex-wrap: inherit;
+   }
+
+   .bg-black{
+     background-color: #1d1d1e;
+   }
+
+   .radius{
+     border-radius: 2px;
+     background: rgba(255, 255, 255, 0.9);
+     color: #1D1D1E;
+     font-family: 'Roboto', sans-serif;
+     margin-top: 4%;
+   }
+
+   .radius:hover{
+     background-color: rgba(255, 255, 255, 0.9);
+     color: #D8383F;
+     transition: 0.5s;
+   }
+
 /*CSS visiter.html*/
+
 
 .visiter {
   display: flex;
@@ -109,7 +147,7 @@ textarea {
 .visiter {
   flex: 1;
 }
-=======
+
    .fa-caret-down {
      margin-right: 0px;
    }
