@@ -891,6 +891,266 @@ div.text-droit {
   color: white;
 }
 
+p.haut-gauche {
+  font-size: 3vw;
+}
+
+p.bas-gauche {
+  font-size: 1.5vw;
+  line-height: normal;
+  word-wrap: break-word;
+}
+
+div.deco-haut-droite {
+  top: 70px;
+  border-top: 16px solid #FFF;
+}
+
+div.deco-bas-droite {
+  top: 350px;
+  border-bottom: 16px solid #FFF;
+}
+
+div.deco-bas-droite,
+div.deco-haut-droite {
+  position: absolute;
+  height: 340px;
+  width: 80%;
+  border-left: 16px solid #FFF;
+  height: 40px;
+}
+
+/* CAROUSEL*/
+
+div.carousel.slide {
+  height: 80vh;
+}
+
+div.deco-haut {
+  top: 50px;
+  border-top: 16px solid #FFF;
+}
+
+div.deco-bas {
+  top: 420px;
+  border-bottom: 16px solid #FFF;
+}
+
+div.deco-bas,
+div.deco-haut {
+  position: absolute;
+  width: 80%;
+  right: 150px;
+  border-left: 16px solid #FFF;
+  border-right: 16px solid #FFF;
+  height: 40px;
+}
+
+.carousel-inner .carousel-caption {
+  position: absolute;
+  top: 50px;
+  color: white;
+  font-size: 20px;
+}
+
+.carousel-inner .carousel-item h1 i:hover {
+  color: #d8383f;
+  transition: 0.5s;
+}
+
+.carousel-inner .carousel-item h1 {
+  font-weight: bold;
+  font-size: 50px;
+}
+
+.carousel-inner .carousel-item span {
+  text-transform: uppercase;
+  font-weight: lighter;
+  font-size: 40px;
+}
+
+h1.carouselindex {
+  text-transform: uppercase;
+  font-family: "lovelo"
+}
+
+/* DECOUVERTE */
+
+div.container-fluid.discover {
+  text-align: center;
+  background-color: #1d1d1e;
+  margin: 0;
+  padding: 1px 0px 1px 0px;
+  color: white;
+}
+
+div.pictures {
+  padding: 0;
+}
+
+div.col-12.col-sm-3.col-md-3.oeuvre1,
+div.col-12.col-sm-3.col-md-3.oeuvre2,
+div.col-12.col-sm-3.col-md-3.oeuvre3,
+div.col-12.col-sm-3.col-md-3.oeuvre4 {
+  height: 80vh;
+  background-size: cover;
+}
+
+div.col-12.col-sm-3.col-md-3.oeuvre1 {
+  background-image: url(../img/Bosch.jpg);
+}
+
+div.col-12.col-sm-3.col-md-3.oeuvre2 {
+  background-image: url(../img/raphael.jpg)
+}
+
+div.col-12.col-sm-3.col-md-3.oeuvre3 {
+  background-image: url(../img/de\ Goya.jpg)
+}
+
+div.col-12.col-sm-3.col-md-3.oeuvre4 {
+  background-image: url(../img/donatello.jpg)
+}
+
+div.textoeuvres {
+  position: absolute;
+  width: 76.5%;
+  height: 227px;
+  left: 11.75%;
+  top: 210px;
+  padding: 47px 40px 0 47px;
+  background-color: white;
+}
+
+p.titleoeuvre,
+p.nomartiste {
+  font-family: 'lovelo';
+}
+
+p.titleoeuvre {
+  font-size: 2vw;
+  line-height: 90%;
+}
+
+p.nomartiste {
+  font-size: 1.2vw;
+}
+
+div.container-fluid.linksocial {
+  background-color: #1d1d1e;
+}
+
+/* SOCIAL MEDIA */
+
+div.row.socialmore,
+div.row.socialalbums,
+div.row.socialinsta {
+  height: 121px;
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+  background-color: #232223;
+}
+
+div.row.socialmore,
+div.row.socialalbums {
+  padding-bottom: 5%;
+}
+
+div.row.socialinsta {
+  padding-bottom: 15%;
+}
+
+span.socialinnertext {
+  font-family: 'lovelo';
+  font-size: 2vw;
+  color: white;
+  display: inline-block;
+  margin-top: 60px;
+  max-width: 450px;
+}
+
+a.more {
+  padding: 20px 70px 20px 70px;
+}
+
+a.albums {
+  padding: 20px 30px 20px 30px;
+}
+
+a.more,
+a.albums {
+  border: 4px solid white;
+}
+
+div.row.socialPictures {
+  display: flex;
+  justify-content: flex-start;
+}
+
+div.picturecol1,
+div.picturecol2,
+div.picturecol3,
+div.picturecol4,
+div.picturecol5 {
+  width: 20%;
+  height: 40vh;
+  margin: 0;
+}
+
+div.picturecol1,
+div.picturecol2,
+div.picturecol3,
+div.picturecol4,
+div.picturecol5:hover {
+  color: #d8383f;
+  transition: 0.5s;
+}
+
+div.picturecol1 {
+  background-image: url(../img/insta1.jpg);
+  background-size: cover;
+}
+
+div.picturecol2 {
+  background-image: url(../img/insta2.jpg);
+  background-size: cover;
+}
+
+div.picturecol3 {
+  background-image: url(../img/insta3.jpg);
+  background-size: cover;
+}
+
+div.picturecol4 {
+  background-image: url(../img/insta4.jpg);
+  background-size: cover;
+}
+
+div.picturecol5 {
+  background-image: url(../img/insta5.jpg);
+  background-size: cover;
+}
+
+/* APP DOWNLOAD */
+
+div.row.appdownload {
+  text-align: center;
+  background-color: #E92A49;
+  padding: 5% 0% 5% 0%;
+  color: white;
+}
+
+div.row.appdownload:hover {
+  color: #E92A49;
+  background-color: white;
+  transition: 0.5s;
+}
+
+div.col-12.col-sm-12.col-md-12.appdownload1 {
+  font-family: "lovelo";
+}
+
 .formgroupmt {
   margin-top: 100px;
 }
