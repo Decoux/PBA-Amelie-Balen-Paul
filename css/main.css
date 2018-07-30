@@ -105,9 +105,19 @@ textarea {
   background-color: #1d1d1e;
 }
 
+
 .visiter {
   flex: 1;
 }
+=======
+   .fa-caret-down {
+     margin-right: 0px;
+   }
+
+   .bg-white{
+     background-color: white;
+   }
+
 
 .margin-top {
   margin-top: 90px;
@@ -233,44 +243,42 @@ span {
   src: url("../font-family/lovelo.ttf");
 }
 
+
 /*footer*/
 
 /*navbar*/
 
-.pointer {
-  cursor: pointer;
+
+
+
+/* NAVBAR */
+
+nav.navbar.navbar-expand-lg {
+    background-color: #232223;
+    height: 90px;
+}
+nav.navbar.navbar-expand-lg:hover {
+    color: red;
 }
 
-.borderbottom {
-  border-bottom: 1px solid white;
-  width: 80%;
-  margin-left: 10%;
-}
-
-input[value="PBA"],
-a[class="nav-link d-lg-none pb-4"],
-a[class="nav-link d-lg-none pt-4 pb-4"] {
-  margin-left: 10%;
-}
-
-input[value="PBA"] {
-  width: 80%;
-  max-width: 250px;
-  border: 5px solid white;
-  background-color: inherit;
-}
 
 .navbar-brand {
   font-size: 17px;
+
+}
+a.nav-link {
+    font-family: "lovelo";
+    font-size: 18px;
+    color: #FFF;
+    max-width: 200px;
+    transition: all 0.3s ease 0s;
 }
 
-.bgnoir {
-  background: #1d1d1e;
-}
-
-.tch {
+a.navbar-brand,
+a.nav-link {
   color: white;
 }
+
 
 .tch:hover {
   transition: color 0.3s;
@@ -297,11 +305,32 @@ input[type="search"] {
   border: 5px solid white;
   border-radius: 0px;
   height: 40px;
+
+a.navbar-brand:hover,
+a.nav-link:hover {
+    background-color: inherit;
+    color: #da4047;
+}
+
+/* INPUT */
+input.form-control.mr-sm-2 {
+    background-color: #1D1D1E;
+    color: #FFF;
+    width: 160px;
+    height: 35px;
+    border: 4px solid #FFF;
+    position: relative;
+    padding-right: 30px;
+    padding-left: 5px;
+    transition: all 0.3s ease 0s;
+    border-radius: 0px;
+
 }
 
 input[type="search"]:hover,
 input[type="search"]:focus {
   background-color: inherit;
+
   border: 5px solid #da4047;
 }
 
@@ -316,9 +345,15 @@ input[type="search"]:focus {
 
 #exampleSelect1:hover {
   color: #da4047;
+
+  border-color: #da4047;
+
 }
 
 /* section*/
+.section{
+  margin: 200px 0 0 0 ;
+}
 
 .paragraphe {
   font-family: "loveloblack";
@@ -404,10 +439,12 @@ footer a:focus {
   display: inline-flex;
 }
 
+
 ol,
 ul {
   list-style: none;
 }
+
 
 .pagination--light .pagination-next {
   float: right;
@@ -529,6 +566,7 @@ div.deco-bas-gauche {
   height: 40px;
 }
 
+
 div.collection-square {
   position: absolute;
   top: 150px;
@@ -545,6 +583,27 @@ div.text-droit {
   left: 22%;
   color: white;
 }
+
+.formgroupmt {
+  margin-top: 100px;
+}
+
+
+   /*==============MOBILE FIRST===============*/
+ @media (min-width:320px) {
+
+     .formgroupmt {
+       margin-top: 0px;
+     }
+
+     .ml-4{
+       display: ruby-text;
+     }
+     .contact{
+       margin: 0;
+     }
+     .colorwhite{
+
 
 p.haut-gauche {
   font-size: 3vw;
@@ -801,6 +860,7 @@ div.row.appdownload:hover {
 div.col-12.col-sm-12.col-md-12.appdownload1 {
   font-family: "lovelo";
 }
+
 
 /* ==========================================================================
    Helper classes
