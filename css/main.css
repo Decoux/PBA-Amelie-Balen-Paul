@@ -280,11 +280,280 @@ span {
   font-family: "loveloblack";
   src: url("../font-family/lovelo.ttf");
 }
+/* NAVBAR */
 
+nav.navbar.navbar-expand-lg {
+    background-color: #232223;
+    height: 90px;
+}
+nav.navbar.navbar-expand-lg:hover {
+    color: red;
+}
+
+
+.navbar-brand {
+  font-size: 17px;
+
+}
+a.nav-link {
+    font-family: "lovelo";
+    font-size: 18px;
+    color: #FFF;
+    max-width: 200px;
+    transition: all 0.3s ease 0s;
+}
+
+a.navbar-brand,
+a.nav-link {
+  color: white;
+}
+
+
+.tch:hover {
+  transition: color 0.3s;
+  color: #da4047;
+}
+
+.tchborder:hover {
+  transition: border 0.3s;
+  border-color: #da4047;
+}
+
+.searchfor {
+  margin-left: -30px;
+  z-index: 1000;
+  position: relative;
+}
+
+.bgh:hover {
+  background-color: #da4047;
+}
+
+input[type="search"] {
+  background: inherit;
+  border: 5px solid white;
+  border-radius: 0px;
+  height: 40px;
+}
+a.navbar-brand:hover,
+a.nav-link:hover {
+    background-color: inherit;
+    color: #da4047;
+}
+
+/* INPUT */
+input.form-control.mr-sm-2 {
+    background-color: #1D1D1E;
+    color: #FFF;
+    width: 160px;
+    height: 35px;
+    border: 4px solid #FFF;
+    position: relative;
+    padding-right: 30px;
+    padding-left: 5px;
+    transition: all 0.3s ease 0s;
+    border-radius: 0px;
+
+}
+
+input[type="search"]:hover,
+input[type="search"]:focus {
+  background-color: inherit;
+
+  border: 5px solid #da4047;
+}
+
+#exampleSelect1 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: #1d1d1e;
+  border: none;
+  color: white;
+}
+
+#exampleSelect1:hover {
+  color: #da4047;
+
+  border-color: #da4047;
+
+}
+
+/* section*/
+.section{
+  margin: 200px 0 0 0 ;
+}
+
+.paragraphe {
+  font-family: "loveloblack";
+}
+
+.lock {
+  width: 37px;
+  height: 37px;
+  border-top: solid 16px;
+  border-top-color: currentcolor;
+  border-right: solid 16px;
+  border-right-color: currentcolor;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.colorpink {
+  color: #d3336c;
+}
+
+.colorpurple {
+  color: #935297;
+}
+
+.colorvert {
+  color: #79a506;
+}
 
 /*footer*/
 
-/*navbar*/
+.footer {
+  background: #1D1D1E;
+  margin-top: 100px;
+}
+
+.colorwhite {
+  color: white;
+}
+
+footer a:hover {
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  color: #D8383F;
+}
+
+footer a:focus {
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  color: #D8383F;
+}
+
+.colorwhite a {
+  color: white;
+}
+
+.icon {
+  margin-top: 100px;
+}
+
+.container {
+  width: 1280px;
+  margin: 0 auto;
+  margin-bottom: 0px;
+  padding: 0;
+}
+
+.pagination--light {
+  text-align: center;
+  height: 35px;
+  margin-bottom: 45px !important;
+  color: #1D1D1E;
+  background-color: #FFF;
+}
+
+.pagination--light {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.index {
+  display: inline-flex;
+}
+
+
+ol,
+ul {
+  list-style: none;
+}
+
+
+.pagination--light .pagination-next {
+  float: right;
+  text-align: right;
+  margin-right: 20px;
+}
+
+.pagination-next {
+  float: right;
+  text-align: right;
+  margin-right: 20px;
+}
+
+.pagination--light .pagination-previous,
+.pagination--light .pagination-next {
+  border: solid 4px #1D1D1E;
+  padding: 5px 13px;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  font-size: "bikobold";
+  font-size: 18px;
+  font-size: 1.8rem;
+  height: 67px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a {
+  box-sizing: border-box;
+}
+
+.pagination--light {
+  text-align: center;
+  color: #1D1D1E;
+}
+
+.pagination--light .index .index-item:first-child {
+  border-left: none;
+}
+
+.pagination--light .index .index-item.active {
+  color: #D8383F;
+}
+
+.pagination--light .index .index-item {
+  display: inline-block;
+  width: 45px;
+  text-align: center;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  border-left: solid 2px #1D1D1E;
+  font-size: 18px;
+  font-size: 1.8rem;
+  font-family: "bikobold";
+}
+
+/*==============MOBILE FIRST===============*/
+
+@media (min-width:320px) {
+  .ml-4 {
+    display: ruby-text;
+  }
+  .contact {
+    margin: 0;
+  }
+  .colorwhite {}
+  .image {
+    width: 100%;
+  }
+  .icon {
+    margin: 0;
+  }
+  .suivez-nous {
+    margin-left: 40px;
+  }
+}
+
 
 
 
