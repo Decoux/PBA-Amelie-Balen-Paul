@@ -542,7 +542,9 @@ a {
   .contact {
     margin: 0;
   }
-  .colorwhite {}
+  .colorwhite {
+    margin-left: 0px;
+  }
   .image {
     width: 100%;
   }
@@ -550,7 +552,7 @@ a {
     margin: 0;
   }
   .suivez-nous {
-    margin-left: 40px;
+    margin-left:0px;
   }
 }
 
@@ -818,7 +820,7 @@ a {
     display: ruby-text;
   }
   .contact {
-    margin: 0;
+    margin: auto;
   }
   .colorwhite {}
   .image {
@@ -828,7 +830,13 @@ a {
     margin: 0;
   }
   .suivez-nous {
-    margin-left: 40px;
+    margin-left:0px;
+  }
+  .col-md-2{
+    width: 0;
+  }
+  .mt-3{
+    margin-right: 50px;
   }
 }
 
