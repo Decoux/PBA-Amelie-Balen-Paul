@@ -1192,7 +1192,7 @@ div.col-12.col-sm-12.col-md-12.appdownload1 {
      .col-md-2{
        display: ruby-text-container;
      }
-
+}
 
 p.haut-gauche {
   font-size: 3vw;
@@ -1295,7 +1295,7 @@ div.col-12.col-sm-3.col-md-3.oeuvre4 {
   background-size: cover;
 }
 
-div.col-12.col-sm-3.col-md-3.oeuvre1 {
+.oeuvre1 {
   background-image: url(../img/Bosch.jpg);
 }
 
