@@ -614,7 +614,6 @@ input[type="search"] {
   border: 5px solid white;
   border-radius: 0px;
   height: 40px;
-}
 
 a.navbar-brand:hover,
 a.nav-link:hover {
@@ -1191,10 +1190,7 @@ div.col-12.col-sm-12.col-md-12.appdownload1 {
      .suivez-nous{
        display: ruby;
      }
-     .ml-5{
-      display:ruby-text-container;
-
-     }
+  
      .icon{
        margin-top: 30px;
      }
