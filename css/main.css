@@ -120,6 +120,10 @@ textarea {
      background-color: #1d1d1e;
    }
 
+   .row{
+     margin:0;
+   }
+
    .radius{
      border-radius: 2px;
      background: rgba(255, 255, 255, 0.9);
@@ -158,12 +162,10 @@ textarea {
 
 
 .margin-top {
-  margin-top: 90px;
+  margin-top: 45px;
 }
 
-.row {
-  margin: 0;
-}
+
 
 .row-nowrap {
   flex-wrap: inherit;
@@ -247,6 +249,7 @@ i {
 
 .desktop {
   justify-content: center;
+  padding-bottom: 5%;
 }
 
 .mobile {
@@ -254,17 +257,32 @@ i {
 }
 
 .margin-top-responsive {
-  margin-top: 15px;
+  margin-top: 90px;
 }
 
 span {
   font-size: 16px;
 }
 
+.banniere-paul{
+  background-color: #d8383f;
+  text-align-last: center;
+  padding: 5%;
+  font-family: "lovelo";
+}
+
+.banniere-paul:hover{
+  color: #d8383f;
+  background-color: white;
+  transition: 1s;
+}
+
 @media (max-width:1200px) {
   .desktop {
     display: none;
   }
+
+
 }
 
 @media (min-width:1200px) {
@@ -274,6 +292,8 @@ span {
   .margin-top-responsive {
     margin-top: 0;
   }
+
+
 }
 
 @font-face {
@@ -416,7 +436,6 @@ input[type="search"]:focus {
 
 .footer {
   background: #1D1D1E;
-  margin-top: 100px;
 }
 
 .colorwhite {
@@ -697,7 +716,6 @@ input[type="search"]:focus {
 
 .footer {
   background: #1D1D1E;
-  margin-top: 100px;
 }
 
 .colorwhite {
