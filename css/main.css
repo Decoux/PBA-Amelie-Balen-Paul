@@ -120,6 +120,10 @@ textarea {
      background-color: #1d1d1e;
    }
 
+   .row{
+     margin:0;
+   }
+
    .radius{
      border-radius: 2px;
      background: rgba(255, 255, 255, 0.9);
@@ -158,12 +162,10 @@ textarea {
 
 
 .margin-top {
-  margin-top: 90px;
+  margin-top: 45px;
 }
 
-.row {
-  margin: 0;
-}
+
 
 .row-nowrap {
   flex-wrap: inherit;
@@ -247,6 +249,7 @@ i {
 
 .desktop {
   justify-content: center;
+  padding-bottom: 5%;
 }
 
 .mobile {
@@ -254,17 +257,32 @@ i {
 }
 
 .margin-top-responsive {
-  margin-top: 15px;
+  margin-top: 90px;
 }
 
 span {
   font-size: 16px;
 }
 
+.banniere-paul{
+  background-color: #d8383f;
+  text-align-last: center;
+  padding: 5%;
+  font-family: "lovelo";
+}
+
+.banniere-paul:hover{
+  color: #d8383f;
+  background-color: white;
+  transition: 1s;
+}
+
 @media (max-width:1200px) {
   .desktop {
     display: none;
   }
+
+
 }
 
 @media (min-width:1200px) {
@@ -274,21 +292,14 @@ span {
   .margin-top-responsive {
     margin-top: 0;
   }
+
+
 }
 
 @font-face {
   font-family: "loveloblack";
   src: url("../font-family/lovelo.ttf");
 }
-
-
-/*footer*/
-
-/*navbar*/
-
-
-
-
 /* NAVBAR */
 
 nav.navbar.navbar-expand-lg {
@@ -343,7 +354,7 @@ input[type="search"] {
   border: 5px solid white;
   border-radius: 0px;
   height: 40px;
-
+}
 a.navbar-brand:hover,
 a.nav-link:hover {
     background-color: inherit;
@@ -425,7 +436,6 @@ input[type="search"]:focus {
 
 .footer {
   background: #1D1D1E;
-  margin-top: 100px;
 }
 
 .colorwhite {
@@ -551,6 +561,286 @@ a {
   .contact {
     margin: 0;
   }
+  .colorwhite {
+    margin-left: 0px;
+  }
+  .image {
+    width: 100%;
+  }
+  .icon {
+    margin: 0;
+  }
+  .suivez-nous {
+    margin-left:0px;
+  }
+}
+
+
+
+
+
+/* NAVBAR */
+
+nav.navbar.navbar-expand-lg {
+    background-color: #232223;
+    height: 90px;
+}
+nav.navbar.navbar-expand-lg:hover {
+    color: red;
+}
+
+
+.navbar-brand {
+  font-size: 17px;
+
+}
+a.nav-link {
+    font-family: "lovelo";
+    font-size: 18px;
+    color: #FFF;
+    max-width: 200px;
+    transition: all 0.3s ease 0s;
+}
+
+a.navbar-brand,
+a.nav-link {
+  color: white;
+}
+
+
+.tch:hover {
+  transition: color 0.3s;
+  color: #da4047;
+}
+
+.tchborder:hover {
+  transition: border 0.3s;
+  border-color: #da4047;
+}
+
+.searchfor {
+  margin-left: -30px;
+  z-index: 1000;
+  position: relative;
+}
+
+.bgh:hover {
+  background-color: #da4047;
+}
+
+input[type="search"] {
+  background: inherit;
+  border: 5px solid white;
+  border-radius: 0px;
+  height: 40px;
+}
+
+a.navbar-brand:hover,
+a.nav-link:hover {
+    background-color: inherit;
+    color: #da4047;
+}
+
+/* INPUT */
+input.form-control.mr-sm-2 {
+    background-color: #1D1D1E;
+    color: #FFF;
+    width: 160px;
+    height: 35px;
+    border: 4px solid #FFF;
+    position: relative;
+    padding-right: 30px;
+    padding-left: 5px;
+    transition: all 0.3s ease 0s;
+    border-radius: 0px;
+
+}
+
+input[type="search"]:hover,
+input[type="search"]:focus {
+  background-color: inherit;
+
+  border: 5px solid #da4047;
+}
+
+#exampleSelect1 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: #1d1d1e;
+  border: none;
+  color: white;
+}
+
+#exampleSelect1:hover {
+  color: #da4047;
+
+  border-color: #da4047;
+
+}
+
+/* section*/
+.section{
+  margin: 200px 0 0 0 ;
+}
+
+.paragraphe {
+  font-family: "loveloblack";
+}
+
+.lock {
+  width: 37px;
+  height: 37px;
+  border-top: solid 16px;
+  border-top-color: currentcolor;
+  border-right: solid 16px;
+  border-right-color: currentcolor;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.colorpink {
+  color: #d3336c;
+}
+
+.colorpurple {
+  color: #935297;
+}
+
+.colorvert {
+  color: #79a506;
+}
+
+/*footer*/
+
+.footer {
+  background: #1D1D1E;
+}
+
+.colorwhite {
+  color: white;
+}
+
+footer a:hover {
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  color: #D8383F;
+}
+
+footer a:focus {
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  color: #D8383F;
+}
+
+.colorwhite a {
+  color: white;
+}
+
+.icon {
+  margin-top: 100px;
+}
+
+.container {
+  width: 1280px;
+  margin: 0 auto;
+  margin-bottom: 0px;
+  padding: 0;
+}
+
+.pagination--light {
+  text-align: center;
+  height: 35px;
+  margin-bottom: 45px !important;
+  color: #1D1D1E;
+  background-color: #FFF;
+}
+
+.pagination--light {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.index {
+  display: inline-flex;
+}
+
+
+ol,
+ul {
+  list-style: none;
+}
+
+
+.pagination--light .pagination-next {
+  float: right;
+  text-align: right;
+  margin-right: 20px;
+}
+
+.pagination-next {
+  float: right;
+  text-align: right;
+  margin-right: 20px;
+}
+
+.pagination--light .pagination-previous,
+.pagination--light .pagination-next {
+  border: solid 4px #1D1D1E;
+  padding: 5px 13px;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  font-size: "bikobold";
+  font-size: 18px;
+  font-size: 1.8rem;
+  height: 67px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a {
+  box-sizing: border-box;
+}
+
+.pagination--light {
+  text-align: center;
+  color: #1D1D1E;
+}
+
+.pagination--light .index .index-item:first-child {
+  border-left: none;
+}
+
+.pagination--light .index .index-item.active {
+  color: #D8383F;
+}
+
+.pagination--light .index .index-item {
+  display: inline-block;
+  width: 45px;
+  text-align: center;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  border-left: solid 2px #1D1D1E;
+  font-size: 18px;
+  font-size: 1.8rem;
+  font-family: "bikobold";
+}
+
+/*==============MOBILE FIRST===============*/
+
+@media (min-width:320px) {
+  .ml-4 {
+    display: ruby-text;
+  }
+  .contact {
+    margin: auto;
+  }
   .colorwhite {}
   .image {
     width: 100%;
@@ -559,7 +849,13 @@ a {
     margin: 0;
   }
   .suivez-nous {
-    margin-left: 40px;
+    margin-left:0px;
+  }
+  .col-md-2{
+    width: 0;
+  }
+  .mt-3{
+    margin-right: 50px;
   }
 }
 
@@ -622,6 +918,266 @@ div.text-droit {
   color: white;
 }
 
+p.haut-gauche {
+  font-size: 3vw;
+}
+
+p.bas-gauche {
+  font-size: 1.5vw;
+  line-height: normal;
+  word-wrap: break-word;
+}
+
+div.deco-haut-droite {
+  top: 70px;
+  border-top: 16px solid #FFF;
+}
+
+div.deco-bas-droite {
+  top: 350px;
+  border-bottom: 16px solid #FFF;
+}
+
+div.deco-bas-droite,
+div.deco-haut-droite {
+  position: absolute;
+  height: 340px;
+  width: 80%;
+  border-left: 16px solid #FFF;
+  height: 40px;
+}
+
+/* CAROUSEL*/
+
+div.carousel.slide {
+  height: 80vh;
+}
+
+div.deco-haut {
+  top: 50px;
+  border-top: 16px solid #FFF;
+}
+
+div.deco-bas {
+  top: 420px;
+  border-bottom: 16px solid #FFF;
+}
+
+div.deco-bas,
+div.deco-haut {
+  position: absolute;
+  width: 80%;
+  right: 150px;
+  border-left: 16px solid #FFF;
+  border-right: 16px solid #FFF;
+  height: 40px;
+}
+
+.carousel-inner .carousel-caption {
+  position: absolute;
+  top: 50px;
+  color: white;
+  font-size: 20px;
+}
+
+.carousel-inner .carousel-item h1 i:hover {
+  color: #d8383f;
+  transition: 0.5s;
+}
+
+.carousel-inner .carousel-item h1 {
+  font-weight: bold;
+  font-size: 50px;
+}
+
+.carousel-inner .carousel-item span {
+  text-transform: uppercase;
+  font-weight: lighter;
+  font-size: 40px;
+}
+
+h1.carouselindex {
+  text-transform: uppercase;
+  font-family: "lovelo"
+}
+
+/* DECOUVERTE */
+
+div.container-fluid.discover {
+  text-align: center;
+  background-color: #1d1d1e;
+  margin: 0;
+  padding: 1px 0px 1px 0px;
+  color: white;
+}
+
+div.pictures {
+  padding: 0;
+}
+
+div.col-12.col-sm-3.col-md-3.oeuvre1,
+div.col-12.col-sm-3.col-md-3.oeuvre2,
+div.col-12.col-sm-3.col-md-3.oeuvre3,
+div.col-12.col-sm-3.col-md-3.oeuvre4 {
+  height: 80vh;
+  background-size: cover;
+}
+
+div.col-12.col-sm-3.col-md-3.oeuvre1 {
+  background-image: url(../img/Bosch.jpg);
+}
+
+div.col-12.col-sm-3.col-md-3.oeuvre2 {
+  background-image: url(../img/raphael.jpg)
+}
+
+div.col-12.col-sm-3.col-md-3.oeuvre3 {
+  background-image: url(../img/de\ Goya.jpg)
+}
+
+div.col-12.col-sm-3.col-md-3.oeuvre4 {
+  background-image: url(../img/donatello.jpg)
+}
+
+div.textoeuvres {
+  position: absolute;
+  width: 76.5%;
+  height: 227px;
+  left: 11.75%;
+  top: 210px;
+  padding: 47px 40px 0 47px;
+  background-color: white;
+}
+
+p.titleoeuvre,
+p.nomartiste {
+  font-family: 'lovelo';
+}
+
+p.titleoeuvre {
+  font-size: 2vw;
+  line-height: 90%;
+}
+
+p.nomartiste {
+  font-size: 1.2vw;
+}
+
+div.container-fluid.linksocial {
+  background-color: #1d1d1e;
+}
+
+/* SOCIAL MEDIA */
+
+div.row.socialmore,
+div.row.socialalbums,
+div.row.socialinsta {
+  height: 121px;
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+  background-color: #232223;
+}
+
+div.row.socialmore,
+div.row.socialalbums {
+  padding-bottom: 5%;
+}
+
+div.row.socialinsta {
+  padding-bottom: 15%;
+}
+
+span.socialinnertext {
+  font-family: 'lovelo';
+  font-size: 2vw;
+  color: white;
+  display: inline-block;
+  margin-top: 60px;
+  max-width: 450px;
+}
+
+a.more {
+  padding: 20px 70px 20px 70px;
+}
+
+a.albums {
+  padding: 20px 30px 20px 30px;
+}
+
+a.more,
+a.albums {
+  border: 4px solid white;
+}
+
+div.row.socialPictures {
+  display: flex;
+  justify-content: flex-start;
+}
+
+div.picturecol1,
+div.picturecol2,
+div.picturecol3,
+div.picturecol4,
+div.picturecol5 {
+  width: 20%;
+  height: 40vh;
+  margin: 0;
+}
+
+div.picturecol1,
+div.picturecol2,
+div.picturecol3,
+div.picturecol4,
+div.picturecol5:hover {
+  color: #d8383f;
+  transition: 0.5s;
+}
+
+div.picturecol1 {
+  background-image: url(../img/insta1.jpg);
+  background-size: cover;
+}
+
+div.picturecol2 {
+  background-image: url(../img/insta2.jpg);
+  background-size: cover;
+}
+
+div.picturecol3 {
+  background-image: url(../img/insta3.jpg);
+  background-size: cover;
+}
+
+div.picturecol4 {
+  background-image: url(../img/insta4.jpg);
+  background-size: cover;
+}
+
+div.picturecol5 {
+  background-image: url(../img/insta5.jpg);
+  background-size: cover;
+}
+
+/* APP DOWNLOAD */
+
+div.row.appdownload {
+  text-align: center;
+  background-color: #E92A49;
+  padding: 5% 0% 5% 0%;
+  color: white;
+}
+
+div.row.appdownload:hover {
+  color: #E92A49;
+  background-color: white;
+  transition: 0.5s;
+}
+
+div.col-12.col-sm-12.col-md-12.appdownload1 {
+  font-family: "lovelo";
+}
+
 .formgroupmt {
   margin-top: 100px;
 }
@@ -663,7 +1219,7 @@ div.text-droit {
      .col-md-2{
        display: ruby-text-container;
      }
-
+}
 
 p.haut-gauche {
   font-size: 3vw;
@@ -766,7 +1322,7 @@ div.col-12.col-sm-3.col-md-3.oeuvre4 {
   background-size: cover;
 }
 
-div.col-12.col-sm-3.col-md-3.oeuvre1 {
+.oeuvre1 {
   background-image: url(../img/Bosch.jpg);
 }
 
