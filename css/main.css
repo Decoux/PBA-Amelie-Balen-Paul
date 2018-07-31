@@ -485,6 +485,7 @@ footer a:focus {
 
 .index {
   display: inline-flex;
+  margin-bottom: -45px;
 }
 
 
@@ -551,6 +552,9 @@ a {
   font-size: 1.8rem;
   font-family: "bikobold";
 }
+.contact{
+ display:flex;
+}
 
 /*==============MOBILE FIRST===============*/
 
@@ -558,9 +562,7 @@ a {
   .ml-4 {
     display: ruby-text;
   }
-  .contact {
-    margin: 0;
-  }
+
   .colorwhite {
     margin-left: 0px;
   }
@@ -572,8 +574,13 @@ a {
   }
   .suivez-nous {
     margin-left:0px;
+    margin-bottom: -20px;
+  }
+  .Vos{
+    margin-top: 26px;
   }
 }
+
 
 
 
@@ -858,6 +865,7 @@ a {
     margin-right: 50px;
   }
 }
+
 
 /*=========================================================================================
  ==============================INDEX =============================================*/
@@ -1183,43 +1191,6 @@ div.col-12.col-sm-12.col-md-12.appdownload1 {
 }
 
 
-   /*==============MOBILE FIRST===============*/
- @media (min-width:320px) {
-
-     .formgroupmt {
-       margin-top: 0px;
-     }
-
-     .ml-4{
-       display: ruby-text;
-     }
-     .contact{
-       margin: 0;
-     }
-     .colorwhite{
-
-
-     }
-     .image{
-       width: 100%;
-     }
-     .icon{
-       margin: 0;
-     }
-     .suivez-nous{
-       display: ruby;
-     }
-     .ml-5{
-      display:ruby-text-container;
-
-     }
-     .icon{
-       margin-top: 30px;
-     }
-     .col-md-2{
-       display: ruby-text-container;
-     }
-}
 
 p.haut-gauche {
   font-size: 3vw;
